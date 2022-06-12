@@ -9,9 +9,9 @@ const jos = [
 ];
 
 const a = jos.map((x) => x.split(" "))
-const b = b.filter
+const filtered = a.filter((x) => x === "-")
 
-console.log(a);
+console.log(filtered);
 
 
 const tabl = document.querySelector(".tabl");
